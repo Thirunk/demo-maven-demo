@@ -19,12 +19,12 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('Deploy') {
-            steps {
-                // Deploy your artifact, if necessary
-                // Example: sh 'mvn deploy'
-            }
-        }
+        // stage('Deploy') {
+        //     steps {
+        //         // Deploy your artifact, if necessary
+        //         // Example: sh 'mvn deploy'
+        //     }
+        // }
     }
     
 
